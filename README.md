@@ -1,73 +1,20 @@
 # Airport Dashboard
 
-A customizable dashboard for aviation enthusiasts, spotters, and travelers. Displays live flight radar, airport webcam feeds, weather info, and other toggleable aviation widgets—all tailored to your location or airport of choice.
+A simple dashboard that shows a live airport radar, webcam feed, and current weather.  
+_Deploys 24/7 for free using GitHub Pages!_
 
 ## Features
 
-- **Live Flight Radar:**  
-  Embedded real-time flight radar (powered by [ADSBexchange Globe](https://globe.adsbexchange.com/)), showing flights near the selected airport or your current location.
+- **Live Flight Radar:** Realtime view with [ADSBexchange Globe](https://globe.adsbexchange.com/)
+- **Airport Webcam:** Live stream from a popular airport webcam (customizable)
+- **Weather Info:** Current weather at the selected airport (OpenWeatherMap)
 
-- **Airport Live Webcam:**  
-  View live video feeds from public airport webcams. Automatically suggests the closest airport, but you can search and select any airport.
+---
 
-- **Weather Information:**  
-  Get current weather conditions, forecasts, and aviation (METAR/TAF) data for your chosen airport.
+## Setup Instructions
 
-- **Toggleable Widgets:**  
-  Enable or disable additional features, such as:
-  - Arrival/departure boards
-  - NOTAMs (Notices to Airmen)
-  - Airspace maps
-  - Aviation news feeds
-  - ...and more!
-
-## Getting Started
-
-### 1. Clone the Repository
+### 1. **Clone this repo**
 
 ```sh
 git clone https://github.com/G34hWeatherSpotter/airport-dashboard.git
 cd airport-dashboard
-```
-
-### 2. Install Dependencies
-
-```sh
-npm install
-```
-
-### 3. Start the Development Server
-
-```sh
-npm start
-```
-
-The dashboard will be available at `http://localhost:3000`.
-
----
-
-## Customization
-
-- **Default Airport:**  
-  The app will try to detect your location and suggest the nearest airport. You can also search for and select any airport.
-
-- **Widgets:**  
-  Toggle widgets on or off from the settings menu.
-
-- **APIs/Integrations:**  
-  - [ADSBexchange Globe](https://globe.adsbexchange.com/) (flight radar)
-  - [OpenWeatherMap](https://openweathermap.org/), [AviationWeather.gov](https://aviationweather.gov/) (weather)
-  - Public webcam APIs and curated webcam URLs
-
-## Contributing
-
-Pull requests are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
-
-## License
-
-[MIT](LICENSE)
-
----
-
-**Ideas or suggestions?**  
-Feel free to open an issue or a discussion!
