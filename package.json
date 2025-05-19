@@ -2,12 +2,13 @@
   "name": "airport-dashboard",
   "version": "1.0.0",
   "private": true,
-  "description": "A simple React dashboard for airport webcams, live radar, and weather.",
+  "description": "A simple dashboard that shows a live airport radar, webcam feed, and current weather.",
   "homepage": "https://G34hWeatherSpotter.github.io/airport-dashboard",
   "dependencies": {
     "leaflet": "^1.9.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
     "react-leaflet": "^4.2.1"
   },
   "devDependencies": {
